@@ -1,0 +1,24 @@
+alias salias='source ~/.bash_aliases/index'
+alias ealias='code ~/.bash_aliases/index'
+
+CONFIG=~/.bash_aliases/config.sh
+if [ -f $CONFIG ]; then
+    source $CONFIG
+else
+    echo "Unable to initialize the config file."
+fi
+
+ttest () {
+    for t in ${aliasFiles[@]}; do
+        if [ -f $t ];
+        then
+            source $t
+            echo "exists."
+            else
+            echo "not exists."
+        fi
+
+    done
+}
+
+ttest
