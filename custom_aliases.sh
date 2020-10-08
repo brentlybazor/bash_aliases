@@ -1,6 +1,3 @@
-echo 'sourced custom_aliases.sh'
-
-
 alias example_alias='echo "hello alias"'
 
 example_alias_function () {

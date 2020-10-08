@@ -8,17 +8,17 @@ else
     echo "Unable to initialize the config file."
 fi
 
-ttest () {
+initializeAllAliasFiles () {
     for t in ${aliasFiles[@]}; do
         if [ -f $t ];
         then
             source $t
-            echo "exists."
             else
-            echo "not exists."
+            echo "Unable to source file:'${t}' because it doesn't exist."
         fi
-
     done
+
+    echo 'Aliases updated'
 }
 
-ttest
+initializeAllAliasFiles

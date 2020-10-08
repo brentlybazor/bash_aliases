@@ -1,5 +1,3 @@
-echo 'sourced general_aliases.sh'
-
 # yarn aliases
 alias ybd='yarn build-dev'
 alias yw='yarn watch'

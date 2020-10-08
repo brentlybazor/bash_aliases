@@ -1,6 +1,3 @@
-echo 'sourced drm-aliases.sh'
-
-
 # drm folder aliases
 alias dr="cd ${fullDrmPath}/drm-docker"
 alias web="cd ${fullDrmPath}/drm-docker/drm-web"
