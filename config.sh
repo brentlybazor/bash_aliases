@@ -1,14 +1,14 @@
-export firstName=""
-export lastName=""
-export personalEmail=""
-export businessEmail=""
+export firstName="Brently"
+export lastName="Bazor"
+export personalEmail="brently.bazor@gmail.com"
+export businessEmail="bbazor@chargebacks911.com"
 
-export homePath=""
-export devPath=""
+export homePath="/c/Users/brent/"
+export devPath="/Development/"
 export fullDevPath=$homePath$devPath
-export drmPath=""
+export drmPath="/Development/work/cb911/"
 export fullDrmPath=$homePath$drmPath
-export bashAliasFilePath=""
+export bashAliasFilePath="/.bash_aliases/"
 
 
 export aliasFiles=(
