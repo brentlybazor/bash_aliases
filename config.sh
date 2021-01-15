@@ -12,9 +12,5 @@ export bashAliasFilePath=""
 
 
 export aliasFiles=(
-    ~/.bash_aliases/general_aliases.sh
-    ~/.bash_aliases/drm_aliases.sh
-    ~/.bash_aliases/git_aliases.sh
-    ~/.bash_aliases/docker_aliases.sh
-    ~/.bash_aliases/custom_aliases.sh
+    
     )
